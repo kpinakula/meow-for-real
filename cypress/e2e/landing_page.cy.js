@@ -3,9 +3,9 @@ describe('landing page', () => {
     cy.visit('http://localhost:3000/')
   })
 
-  // it('should have a title', () => {
-  //   cy.title().should('eq','Verification Service')
-  // })
+  it('should have a title', () => {
+    cy.title().should('eq','Verification Service')
+  })
 })
 
 describe('My First Test', () => {
